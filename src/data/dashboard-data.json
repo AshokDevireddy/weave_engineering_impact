@@ -1,0 +1,658 @@
+[
+  {
+    "login": "Piccirello",
+    "overall": 0.913,
+    "delivery": 0.892,
+    "quality": 0.882,
+    "collaboration": 0.963,
+    "breadth": 0.956,
+    "deliveryRaw": {
+      "prVolume": 0.8888888888888888,
+      "consistency": 0.8571428571428571,
+      "mergeRate": 1,
+      "cycleTime": 0.9361451144467449
+    },
+    "qualityRaw": {
+      "testCoverage": 0.9351851851851852,
+      "prSizeManagement": 0.7777777777777778,
+      "criticalAreaWork": 0.9444444444444444
+    },
+    "collaborationRaw": {
+      "distinctReviewers": 0.9722222222222222,
+      "crossTeamParticipants": 0.9537037037037037
+    },
+    "breadthRaw": {
+      "areaCount": 0.9629629629629629,
+      "criticalBreadth": 0.9444444444444444
+    },
+    "stats": {
+      "prCount": 92,
+      "totalAdditions": 12232,
+      "totalDeletions": 2476,
+      "areas": [
+        "Infrastructure / CI",
+        "Tests",
+        "Enterprise",
+        "Frontend",
+        "Backend Core",
+        "Backend API",
+        "Migrations",
+        "Backend Models",
+        "Backend Tasks",
+        "Tooling / Config",
+        "Other",
+        "ClickHouse / Analytics",
+        "Management Commands",
+        "Temporal Workflows",
+        "HogQL / Query Engine",
+        "Dependencies",
+        "Batch Exports",
+        "Documentation",
+        "CDP / Destinations"
+      ],
+      "criticalPRCount": 42,
+      "testTouchingPRCount": 48,
+      "avgCycleTimeDays": 0.9,
+      "distinctReviewerCount": 41,
+      "distinctParticipantCount": 39,
+      "activeWeeks": 12,
+      "totalWeeks": 14
+    },
+    "topPRs": [
+      {
+        "number": 47047,
+        "title": "chore: Add tests to verify earlier fixes",
+        "url": "https://github.com/PostHog/posthog/pull/47047",
+        "additions": 92,
+        "deletions": 1,
+        "areas": [
+          "ClickHouse / Analytics",
+          "Backend API",
+          "HogQL / Query Engine"
+        ],
+        "mergedAt": "2026-02-05T22:05:28Z"
+      },
+      {
+        "number": 49896,
+        "title": "fix: ensure feature flag lookups are scoped",
+        "url": "https://github.com/PostHog/posthog/pull/49896",
+        "additions": 24,
+        "deletions": 1,
+        "areas": [
+          "Backend API"
+        ],
+        "mergedAt": "2026-03-09T19:52:17Z"
+      },
+      {
+        "number": 44472,
+        "title": "feat: harden OAuth2 server implementation",
+        "url": "https://github.com/PostHog/posthog/pull/44472",
+        "additions": 7,
+        "deletions": 10,
+        "areas": [
+          "Backend API"
+        ],
+        "mergedAt": "2026-01-08T00:04:15Z"
+      },
+      {
+        "number": 45217,
+        "title": "fix: stricter validation in surveys",
+        "url": "https://github.com/PostHog/posthog/pull/45217",
+        "additions": 59,
+        "deletions": 1,
+        "areas": [
+          "Backend API"
+        ],
+        "mergedAt": "2026-01-16T02:01:39Z"
+      },
+      {
+        "number": 45054,
+        "title": "fix: GitHub Secret scanning alerts not revoking keys",
+        "url": "https://github.com/PostHog/posthog/pull/45054",
+        "additions": 28,
+        "deletions": 17,
+        "areas": [
+          "Backend API"
+        ],
+        "mergedAt": "2026-01-14T21:04:19Z"
+      }
+    ],
+    "rank": 1,
+    "explanation": {
+      "login": "Piccirello",
+      "archetype": "Full-Stack Generalist",
+      "summary": "Piccirello ranked #1 with an overall score of 0.913, contributing 92 merged PRs across critical areas of the PostHog repository.",
+      "reasons": [
+        "Led with 92 merged PRs, showcasing high productivity.",
+        "Achieved 48 PRs with test changes, ensuring code quality.",
+        "Collaborated with 41 distinct reviewers, enhancing team engagement."
+      ],
+      "whyMatters": "This level of contribution and collaboration drives project success and fosters a culture of quality and teamwork."
+    }
+  },
+  {
+    "login": "pauldambra",
+    "overall": 0.912,
+    "delivery": 0.936,
+    "quality": 0.807,
+    "collaboration": 0.991,
+    "breadth": 0.963,
+    "deliveryRaw": {
+      "prVolume": 0.9814814814814815,
+      "consistency": 0.9285714285714286,
+      "mergeRate": 1,
+      "cycleTime": 0.8900620593465988
+    },
+    "qualityRaw": {
+      "testCoverage": 0.8240740740740741,
+      "prSizeManagement": 0.6759259259259259,
+      "criticalAreaWork": 0.9629629629629629
+    },
+    "collaborationRaw": {
+      "distinctReviewers": 0.9907407407407407,
+      "crossTeamParticipants": 0.9907407407407407
+    },
+    "breadthRaw": {
+      "areaCount": 0.9629629629629629,
+      "criticalBreadth": 0.9629629629629629
+    },
+    "stats": {
+      "prCount": 209,
+      "totalAdditions": 34884,
+      "totalDeletions": 23203,
+      "areas": [
+        "Frontend",
+        "Backend Core",
+        "Tests",
+        "Other",
+        "Management Commands",
+        "Plugin Server",
+        "ClickHouse / Analytics",
+        "Backend API",
+        "Infrastructure / CI",
+        "Migrations",
+        "Backend Models",
+        "Temporal Workflows",
+        "Documentation",
+        "Enterprise",
+        "Rust Services",
+        "Batch Exports",
+        "HogQL / Query Engine",
+        "Dependencies",
+        "E2E Tests"
+      ],
+      "criticalPRCount": 113,
+      "testTouchingPRCount": 50,
+      "avgCycleTimeDays": 1.5,
+      "distinctReviewerCount": 59,
+      "distinctParticipantCount": 59,
+      "activeWeeks": 13,
+      "totalWeeks": 14
+    },
+    "topPRs": [
+      {
+        "number": 44070,
+        "title": "fix: set posthog-recorder as default for new teams",
+        "url": "https://github.com/PostHog/posthog/pull/44070",
+        "additions": 34,
+        "deletions": 9,
+        "areas": [
+          "Backend Models",
+          "Tests"
+        ],
+        "mergedAt": "2025-12-30T16:00:10Z"
+      },
+      {
+        "number": 44911,
+        "title": "fix: improve front-end hogql formatting because the robot told me to",
+        "url": "https://github.com/PostHog/posthog/pull/44911",
+        "additions": 52,
+        "deletions": 2,
+        "areas": [
+          "Frontend"
+        ],
+        "mergedAt": "2026-01-14T12:30:23Z"
+      },
+      {
+        "number": 49257,
+        "title": "fix: support property type-specific aliases in property search",
+        "url": "https://github.com/PostHog/posthog/pull/49257",
+        "additions": 50,
+        "deletions": 10,
+        "areas": [
+          "Backend API",
+          "Tests",
+          "Backend Core"
+        ],
+        "mergedAt": "2026-02-26T20:03:15Z"
+      },
+      {
+        "number": 49855,
+        "title": "fix: better way to keep lemon input select fixed when in use",
+        "url": "https://github.com/PostHog/posthog/pull/49855",
+        "additions": 64,
+        "deletions": 17,
+        "areas": [
+          "Frontend"
+        ],
+        "mergedAt": "2026-03-04T17:44:06Z"
+      },
+      {
+        "number": 43427,
+        "title": "chore: clean up a flag that has been out for all fopr 11 days",
+        "url": "https://github.com/PostHog/posthog/pull/43427",
+        "additions": 24,
+        "deletions": 30,
+        "areas": [
+          "Frontend"
+        ],
+        "mergedAt": "2025-12-15T23:33:00Z"
+      }
+    ],
+    "rank": 2,
+    "explanation": {
+      "login": "pauldambra",
+      "archetype": "Full-Stack Generalist",
+      "summary": "Paul D'Ambra significantly contributed to the PostHog repository with 209 merged PRs, ranking #2 overall with a score of 0.912.",
+      "reasons": [
+        "High volume of merged PRs at 209.",
+        "Consistent contributions across 13 out of 14 weeks.",
+        "Strong collaboration with 59 distinct reviewers."
+      ],
+      "whyMatters": "This level of impact demonstrates reliability and fosters team productivity, essential for driving project success."
+    }
+  },
+  {
+    "login": "haacked",
+    "overall": 0.912,
+    "delivery": 0.909,
+    "quality": 0.917,
+    "collaboration": 0.88,
+    "breadth": 0.954,
+    "deliveryRaw": {
+      "prVolume": 0.9166666666666666,
+      "consistency": 1,
+      "mergeRate": 1,
+      "cycleTime": 0.7946350033068783
+    },
+    "qualityRaw": {
+      "testCoverage": 0.9907407407407407,
+      "prSizeManagement": 0.7870370370370371,
+      "criticalAreaWork": 0.9814814814814815
+    },
+    "collaborationRaw": {
+      "distinctReviewers": 0.8703703703703703,
+      "crossTeamParticipants": 0.8888888888888888
+    },
+    "breadthRaw": {
+      "areaCount": 0.9351851851851852,
+      "criticalBreadth": 0.9814814814814815
+    },
+    "stats": {
+      "prCount": 102,
+      "totalAdditions": 31848,
+      "totalDeletions": 8163,
+      "areas": [
+        "ClickHouse / Analytics",
+        "Management Commands",
+        "Backend Models",
+        "Backend API",
+        "Tests",
+        "E2E Tests",
+        "Backend Core",
+        "Backend Tasks",
+        "Tooling / Config",
+        "Rust Services",
+        "Documentation",
+        "Other",
+        "Infrastructure / CI",
+        "Temporal Workflows",
+        "HogQL / Query Engine",
+        "Enterprise"
+      ],
+      "criticalPRCount": 58,
+      "testTouchingPRCount": 69,
+      "avgCycleTimeDays": 2.9,
+      "distinctReviewerCount": 31,
+      "distinctParticipantCount": 29,
+      "activeWeeks": 14,
+      "totalWeeks": 14
+    },
+    "topPRs": [
+      {
+        "number": 43719,
+        "title": "fix(surveys): Fix survey hypercache tests by clearing S3 object storage",
+        "url": "https://github.com/PostHog/posthog/pull/43719",
+        "additions": 11,
+        "deletions": 1,
+        "areas": [
+          "Backend API"
+        ],
+        "mergedAt": "2025-12-19T01:22:20Z"
+      },
+      {
+        "number": 48675,
+        "title": "fix(tests): use freeze_time in test_period_not_final to fix flakiness",
+        "url": "https://github.com/PostHog/posthog/pull/48675",
+        "additions": 15,
+        "deletions": 14,
+        "areas": [
+          "HogQL / Query Engine",
+          "Tests"
+        ],
+        "mergedAt": "2026-02-22T03:47:42Z"
+      },
+      {
+        "number": 48691,
+        "title": "chore: add semgrep rule banning datetime.now() in tests without freeze_time",
+        "url": "https://github.com/PostHog/posthog/pull/48691",
+        "additions": 233,
+        "deletions": 14,
+        "areas": [
+          "Other",
+          "Backend API",
+          "Temporal Workflows",
+          "Tests"
+        ],
+        "mergedAt": "2026-02-23T16:56:57Z"
+      },
+      {
+        "number": 46782,
+        "title": "chore(flags): add source field to feature flag created analytics",
+        "url": "https://github.com/PostHog/posthog/pull/46782",
+        "additions": 52,
+        "deletions": 1,
+        "areas": [
+          "Backend API",
+          "Tests"
+        ],
+        "mergedAt": "2026-02-06T01:42:49Z"
+      },
+      {
+        "number": 49429,
+        "title": "feat(flags): add pushgateway duration metrics for hypercache verification tasks",
+        "url": "https://github.com/PostHog/posthog/pull/49429",
+        "additions": 72,
+        "deletions": 26,
+        "areas": [
+          "Backend Tasks"
+        ],
+        "mergedAt": "2026-03-02T18:14:53Z"
+      }
+    ],
+    "rank": 3,
+    "explanation": {
+      "login": "haacked",
+      "archetype": "Cross-Team Enabler",
+      "summary": "Haacked ranked #3 with an overall score of 0.912, contributing 102 merged PRs across critical areas such as Backend API and Analytics over 90 days.",
+      "reasons": [
+        "High volume of 102 merged PRs demonstrates consistent delivery.",
+        "Contributed significantly to critical/shared code with 58 PRs.",
+        "Maintained an average cycle time of just 2.9 days."
+      ],
+      "whyMatters": "This level of impact fosters collaboration and accelerates project momentum, essential for achieving engineering goals."
+    }
+  },
+  {
+    "login": "adboio",
+    "overall": 0.864,
+    "delivery": 0.869,
+    "quality": 0.772,
+    "collaboration": 0.944,
+    "breadth": 0.926,
+    "deliveryRaw": {
+      "prVolume": 0.9722222222222222,
+      "consistency": 0.8571428571428571,
+      "mergeRate": 1,
+      "cycleTime": 0.7615256952816287
+    },
+    "qualityRaw": {
+      "testCoverage": 0.8518518518518519,
+      "prSizeManagement": 0.6111111111111112,
+      "criticalAreaWork": 0.8703703703703703
+    },
+    "collaborationRaw": {
+      "distinctReviewers": 0.9351851851851852,
+      "crossTeamParticipants": 0.9537037037037037
+    },
+    "breadthRaw": {
+      "areaCount": 0.9629629629629629,
+      "criticalBreadth": 0.8703703703703703
+    },
+    "stats": {
+      "prCount": 158,
+      "totalAdditions": 30484,
+      "totalDeletions": 12453,
+      "areas": [
+        "Frontend",
+        "Backend Core",
+        "E2E Tests",
+        "Backend API",
+        "Tests",
+        "Backend Tasks",
+        "Rust Services",
+        "Backend Models",
+        "Management Commands",
+        "Other",
+        "ClickHouse / Analytics",
+        "Migrations",
+        "Dependencies",
+        "Tooling / Config",
+        "Documentation",
+        "HogQL / Query Engine",
+        "Infrastructure / CI",
+        "Temporal Workflows",
+        "Enterprise"
+      ],
+      "criticalPRCount": 46,
+      "testTouchingPRCount": 43,
+      "avgCycleTimeDays": 3.3,
+      "distinctReviewerCount": 36,
+      "distinctParticipantCount": 39,
+      "activeWeeks": 12,
+      "totalWeeks": 14
+    },
+    "topPRs": [
+      {
+        "number": 43511,
+        "title": "chore(surveys): update xss test for better documentation",
+        "url": "https://github.com/PostHog/posthog/pull/43511",
+        "additions": 78,
+        "deletions": 65,
+        "areas": [
+          "Backend API",
+          "Tests"
+        ],
+        "mergedAt": "2025-12-16T21:16:00Z"
+      },
+      {
+        "number": 47817,
+        "title": "fix(toolbar): filter out invalid URLs from authorized URL suggestions",
+        "url": "https://github.com/PostHog/posthog/pull/47817",
+        "additions": 15,
+        "deletions": 1,
+        "areas": [
+          "Frontend"
+        ],
+        "mergedAt": "2026-02-13T17:38:14Z"
+      },
+      {
+        "number": 46781,
+        "title": "fix(surveys): fix broken types in getSurveyResponse",
+        "url": "https://github.com/PostHog/posthog/pull/46781",
+        "additions": 66,
+        "deletions": 25,
+        "areas": [
+          "HogQL / Query Engine"
+        ],
+        "mergedAt": "2026-02-09T17:28:48Z"
+      },
+      {
+        "number": 47993,
+        "title": "chore(surveys): add llma feedback usage metrics",
+        "url": "https://github.com/PostHog/posthog/pull/47993",
+        "additions": 168,
+        "deletions": 0,
+        "areas": [
+          "Backend Tasks"
+        ],
+        "mergedAt": "2026-02-18T16:12:07Z"
+      },
+      {
+        "number": 48652,
+        "title": "chore(surveys): add form_content field",
+        "url": "https://github.com/PostHog/posthog/pull/48652",
+        "additions": 45,
+        "deletions": 8,
+        "areas": [
+          "Frontend",
+          "Backend API",
+          "Migrations",
+          "Backend Models",
+          "Backend Tasks",
+          "Other"
+        ],
+        "mergedAt": "2026-02-21T06:27:45Z"
+      }
+    ],
+    "rank": 4,
+    "explanation": {
+      "login": "adboio",
+      "archetype": "Full-Stack Generalist",
+      "summary": "Adboio ranked #4 with an overall score of 0.864, contributing 158 merged PRs across various areas, including critical/shared code and tests.",
+      "reasons": [
+        "High PR volume with 158 merged contributions.",
+        "Strong collaboration with 36 distinct reviewers.",
+        "Consistent delivery over 12 out of 14 active weeks."
+      ],
+      "whyMatters": "Adboio's contributions enhance code quality and team collaboration, driving overall project success and stability."
+    }
+  },
+  {
+    "login": "arthurdedeus",
+    "overall": 0.864,
+    "delivery": 0.836,
+    "quality": 0.87,
+    "collaboration": 0.894,
+    "breadth": 0.876,
+    "deliveryRaw": {
+      "prVolume": 0.8148148148148148,
+      "consistency": 0.8571428571428571,
+      "mergeRate": 1,
+      "cycleTime": 0.8350955513784462
+    },
+    "qualityRaw": {
+      "testCoverage": 0.8333333333333334,
+      "prSizeManagement": 0.8518518518518519,
+      "criticalAreaWork": 0.9537037037037037
+    },
+    "collaborationRaw": {
+      "distinctReviewers": 0.8703703703703703,
+      "crossTeamParticipants": 0.9166666666666666
+    },
+    "breadthRaw": {
+      "areaCount": 0.8240740740740741,
+      "criticalBreadth": 0.9537037037037037
+    },
+    "stats": {
+      "prCount": 76,
+      "totalAdditions": 12045,
+      "totalDeletions": 2799,
+      "areas": [
+        "Frontend",
+        "HogQL / Query Engine",
+        "Other",
+        "ClickHouse / Analytics",
+        "Backend Core",
+        "Backend API",
+        "Backend Models",
+        "Tests",
+        "Migrations",
+        "Dependencies",
+        "Backend Tasks"
+      ],
+      "criticalPRCount": 37,
+      "testTouchingPRCount": 20,
+      "avgCycleTimeDays": 2.3,
+      "distinctReviewerCount": 31,
+      "distinctParticipantCount": 32,
+      "activeWeeks": 12,
+      "totalWeeks": 14
+    },
+    "topPRs": [
+      {
+        "number": 45130,
+        "title": "fix(customers): Fix persons table sorting by virtual revenue fields",
+        "url": "https://github.com/PostHog/posthog/pull/45130",
+        "additions": 155,
+        "deletions": 3,
+        "areas": [
+          "HogQL / Query Engine"
+        ],
+        "mergedAt": "2026-01-19T16:26:47Z"
+      },
+      {
+        "number": 42962,
+        "title": "feat(customers): Add last seen column in power users table",
+        "url": "https://github.com/PostHog/posthog/pull/42962",
+        "additions": 221,
+        "deletions": 17,
+        "areas": [
+          "ClickHouse / Analytics",
+          "Frontend",
+          "HogQL / Query Engine",
+          "Other"
+        ],
+        "mergedAt": "2025-12-10T16:55:01Z"
+      },
+      {
+        "number": 46258,
+        "title": "fix(customers): Default empty filters to array instead of object",
+        "url": "https://github.com/PostHog/posthog/pull/46258",
+        "additions": 43,
+        "deletions": 3,
+        "areas": [
+          "Backend API",
+          "Other"
+        ],
+        "mergedAt": "2026-01-29T15:27:40Z"
+      },
+      {
+        "number": 43660,
+        "title": "fix(customers): Remove dynamic key index calculcation",
+        "url": "https://github.com/PostHog/posthog/pull/43660",
+        "additions": 128,
+        "deletions": 5,
+        "areas": [
+          "Frontend",
+          "HogQL / Query Engine"
+        ],
+        "mergedAt": "2025-12-19T00:30:36Z"
+      },
+      {
+        "number": 45290,
+        "title": "feat(customers): Show group count in groups list",
+        "url": "https://github.com/PostHog/posthog/pull/45290",
+        "additions": 124,
+        "deletions": 46,
+        "areas": [
+          "Frontend",
+          "HogQL / Query Engine"
+        ],
+        "mergedAt": "2026-01-21T14:19:00Z"
+      }
+    ],
+    "rank": 5,
+    "explanation": {
+      "login": "arthurdedeus",
+      "archetype": "Full-Stack Generalist",
+      "summary": "Arthur Dedeus ranked #5 with an overall score of 0.864, contributing 76 merged PRs across multiple areas including critical/shared code and tests.",
+      "reasons": [
+        "76 merged PRs demonstrating high delivery volume.",
+        "37 PRs in critical/shared code enhancing project stability.",
+        "Strong collaboration with 31 distinct reviewers."
+      ],
+      "whyMatters": "Arthur's contributions significantly improve code quality and team collaboration, driving project success and efficiency."
+    }
+  }
+]

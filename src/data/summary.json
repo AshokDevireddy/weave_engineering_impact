@@ -1,0 +1,14 @@
+{
+  "totalPRs": 5076,
+  "totalEngineers": 143,
+  "eligibleEngineers": 108,
+  "periodStart": "2025-12-09",
+  "periodEnd": "2026-03-09",
+  "repo": "PostHog/posthog",
+  "scoringWeights": {
+    "delivery": 0.35,
+    "quality": 0.3,
+    "collaboration": 0.2,
+    "breadth": 0.15
+  }
+}

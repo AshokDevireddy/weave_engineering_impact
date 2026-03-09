@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --color-background: #0a0a0f;
+  --color-surface: #12121a;
+  --color-surface-hover: #1a1a25;
+  --color-border: #1e1e2e;
+  --color-border-active: #3b3b5c;
+  --color-text: #e4e4ef;
+  --color-text-muted: #8888a0;
+  --color-text-dim: #555570;
+  --color-accent: #6c5ce7;
+  --color-accent-soft: rgba(108, 92, 231, 0.15);
+  --color-delivery: #00b894;
+  --color-quality: #6c5ce7;
+  --color-collaboration: #fdcb6e;
+  --color-breadth: #e17055;
+  --color-positive: #00b894;
+  --color-negative: #e17055;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Score bar animation */
+@keyframes fillBar {
+  from { width: 0; }
+}
+
+.score-bar-fill {
+  animation: fillBar 0.8s ease-out;
+}
+
+/* Card selection */
+.engineer-card {
+  transition: all 0.2s ease;
+}
+
+.engineer-card:hover {
+  background: var(--color-surface-hover);
+  border-color: var(--color-border-active);
+}
+
+.engineer-card.selected {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-dim);
+}
