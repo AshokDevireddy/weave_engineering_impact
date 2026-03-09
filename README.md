@@ -106,19 +106,32 @@ cp .env.example .env
 # Edit .env with your GITHUB_TOKEN and optionally OPENAI_API_KEY
 ```
 
-### Data Pipeline
+### Refreshing Data
+
+The dashboard uses a **two-step architecture**: an offline data pipeline collects and scores data, then the frontend serves pre-computed static JSON. This means the dashboard loads in under a second — no API calls at runtime.
+
+To refresh with the latest 90 days of data:
 
 ```bash
-# Full pipeline: collect → score → explain → copy to dashboard
-npm run pipeline
+npm run refresh      # Full pipeline: collect → score → explain → copy (~2 min)
+```
 
-# Or run steps individually:
-npm run collect      # Fetch 90 days of PR data from GitHub
-npm run score        # Compute impact scores
-npm run explain      # Generate AI explanations
+Then either rebuild locally or push to GitHub to trigger a Vercel redeploy:
+
+```bash
+npm run build        # Rebuild with updated data
+# or: git add . && git commit -m "Refresh data" && git push
+```
+
+### Running Individual Steps
+
+```bash
+npm run collect      # Fetch 90 days of PR data from GitHub (~1-2 min)
+npm run score        # Compute impact scores (<1s)
+npm run explain      # Generate AI explanations (~15s)
 npm run copy-data    # Copy computed data to src/data/
 
-# If you already have raw-prs.json, skip collection:
+# Skip collection if you already have raw-prs.json:
 npm run pipeline:no-collect
 ```
 
@@ -134,6 +147,7 @@ npm run start        # Start production server
 
 ```
 ├── scripts/
+│   ├── refresh.sh             # One-command data refresh (npm run refresh)
 │   ├── collect-data.ts        # GitHub API data collection (parallel date windows)
 │   ├── compute-scores.ts      # Deterministic scoring engine
 │   ├── generate-explanations.ts # AI explanation layer
